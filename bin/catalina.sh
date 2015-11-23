@@ -95,7 +95,7 @@
 #                   LOGGING_MANAGER="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"
 # -----------------------------------------------------------------------------
 
-JPDA_OPTS=-Djava.security.egd=file:/dev/urandom
+JAVA_OPTS=-Djava.security.egd=file:/dev/urandom
 
 # OS specific support.  $var _must_ be set to either true or false.
 cygwin=false
